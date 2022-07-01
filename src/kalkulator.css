@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+
+}
+
+.optionclicked {
+  background: #d0092e;
+}
+
+.pytanie {
+  margin: 0 auto;
+
+  background-color: #11253d;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: 80%;
+  height: auto;
+
+
+}
+
+.options {
+  list-style: none;
+}
+
+.option {
+  display: flex;
+  padding: 16px;
+  border: 3px solid darkgrey;
+  border-radius: 20px;
+  font-size: 20px;
+  justify-content: center;
+  width: auto;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+.przyciski {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #11253d;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: 80%;
+  height: auto;
+}
+
+.nastepny {
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  color: #11253d;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.option:hover,
+.option.active {
+  background: #03034f
+}
+
+
+.final-results {
+  margin: 0 auto;
+
+  background-color: #d0092e;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: auto;
+  height: auto;
+}
+
+.final-results1 {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #11253d;
+  color: white;
+  font-size: medium;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: 80%;
+  height: auto;
+
+}
+
+.button {
+  border: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
+
+.wynikwynagrodzenia {
+  margin: 0 auto;
+  border: 3px solid darkgrey;
+  background-color: #d0092e;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+  margin-top: 10px;
+  width: 30%;
+  height: auto;
+  border-radius: 15px;
+}

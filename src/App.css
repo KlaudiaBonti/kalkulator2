@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.optionclicked {
+  background: #d0092e;
+}
+
+.pytanie {
+  margin: 0 auto;
+
+  background-color: #11253d;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: 80%;
+  height: auto;
+
+
+}
+
+.options {
+  list-style: none;
+}
+
+.option {
+  padding: 16px;
+  border: 3px solid darkgrey;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+
+  cursor: pointer;
+
+
+}
+
+.przyciski {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: #11253d;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: 80%;
+  height: auto;
+}
+
+.nastepny {
+  width: 30%;
+  padding: 10px;
+  margin-left: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  color: #11253d;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wstecz {
+  width: 30%;
+  padding: 10px;
+  margin-right: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  color: #11253d;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.wstecz1 {
+  width: 30%;
+  padding: 10px;
+  margin-right: auto;
+  text-align: center;
+  background-color: #11253d;
+  border: 1px solid #11253d;
+  ;
+  color: #11253d;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.option:hover,
+.option.active {
+  background: #03034f
+}
+
+
+.final-results {
+  margin: 0 auto;
+
+  background-color: #d0092e;
+  color: white;
+  padding: 16px;
+  border-radius: 16 px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0.3) 0px 18px 38px -18px;
+
+  width: 80%;
+  height: auto;
+}
+
+.button {
+  border: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}

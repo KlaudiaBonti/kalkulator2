@@ -83,7 +83,7 @@ function App() {
       options: [
         { id: 0, text: "1 osobą", wartosc: 0 },
         { id: 1, text: "2 osobami wymagającymi opieki", wartosc: 200 },
-        { id: 2, text: "2 osobami, jedna wymagająca więcej opieki, a druga mniej", wartosc: 50 }
+        { id: 2, text: "2 osobami z czego jedna osoba wymaga opieki, a druga osoba jest zdrowa", wartosc: 50 }
       ]
     },
     {
@@ -113,7 +113,7 @@ function App() {
       ],
     },
     {
-      text: "podsumowanie - wylicz moje wynagrodzenie miesięczne w firmie Berlin Opieka",
+      text: "podsumowanie - wylicz moje wynagrodzenie za okres 30 dni w firmie Berlin Opieka",
       options: [
         { id: 0, text: "Oblicz moje wynagrodzenie", wartosc: 0 },
       ]
@@ -126,7 +126,7 @@ function App() {
   return (
     <div className="App">
       {/* 1. Header*/}
-      <h1> OSOBISTY KALKULATOR WYNAGRODZEŃ NA OKRES 30 DNI I OFERT! </h1>
+      <h1> OSOBISTY KALKULATOR WYNAGRODZENIA I OFERT! </h1>
 
 
       {showResults ? (

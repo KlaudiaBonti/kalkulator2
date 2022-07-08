@@ -142,7 +142,7 @@ function App() {
           </div>
           <div className="restart" onClick={() => restartKalkulatora()}>Restart</div>
           <h1>  </h1>
-          <h2>2. TE OFERTY PASUJĄ DLA CIEBIE: *Tu jawiają się dwie oferty*</h2>
+          <h2>2. TE OFERTY PASUJĄ DLA CIEBIE: *Tu pojawiają się dwie oferty wyfiltrowane zgodnie z kalkulatorem lub zbliżone do wybranych z kalkulatora*</h2>
         </div>
       ) : (
         /* 5. Question Card  */
